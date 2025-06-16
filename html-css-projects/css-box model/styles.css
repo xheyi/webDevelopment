@@ -1,0 +1,52 @@
+.content{
+    width: 500px;
+    height: 600px;
+    background-color: rgb(74, 18, 18);
+    margin: auto;
+    overflow: hidden;
+    filter: blur(2px);
+
+}
+
+.border{
+    border: 50px solid black;
+    height: 600px;
+    width: 500px;
+    padding: 40px;
+    margin: 2rem auto;
+
+
+}
+
+.one{
+    width: 400px;
+    height: 200px;
+    margin: 20px auto;
+    filter: blur(1px);
+    background-color: rgb(228, 173, 101);
+    box-shadow: 0 0 3px 3px rgb(228, 173, 101);
+    border-radius: 5px;
+    transform: rotate(0.5deg);
+}
+
+.two{
+    width: 95%;
+    height: 160px;
+    background-color: rgb(147, 3, 3);
+    margin: auto;
+    filter: blur(3px);
+    box-shadow: 0 0 3px 3px rgb(147, 3, 3) ;
+    border-radius: 10px;
+    transform: rotate(-0.5deg);
+}
+
+.three{
+    width: 90%;
+    height: 160px;
+    background-color: rgb(177, 3, 3);
+    margin: 20px auto;
+    filter: blur(3px);
+    box-shadow: 0 0 5px 5px rgb(177, 3, 3) ;
+    border-radius: 30px 10px 50px 3px;
+    transform: rotate(0.8deg);
+}

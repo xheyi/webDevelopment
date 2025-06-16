@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.god-div {
+    border: 2px solid black;
+    width: 270px;
+    margin: 20px auto;
+    padding: 0 7px;
+
+}
+
+h1 {
+    margin: 0 auto;
+    font-weight: 1000;
+}
+
+.divider {
+    border-bottom: 1px solid rgb(101, 98, 98);
+    margin: 0;
+}
+
+p   {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.thick-p {
+    font-weight: 1000;
+}
+
+.thick {
+    border-bottom: 10px solid black;
+}
+
+h2 {
+    font-size: 0.85rem;
+    font-weight: 1000;
+    margin: 0;
+    
+}
+
+.serving {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.serving p {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.medium-thick {
+    border-bottom: 5px solid black;
+    margin-bottom: -3px;
+}
+
+.big-number {
+    font-size: 100px;
+}
+
+.daily-value {
+    font-size: 0.85rem;
+}
+
+.serving span {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin: -7px -3px;
+}
+
+.bold {
+    font-weight: 1000;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+
+.indent {
+    margin-left: 10px;
+}
+
+.double-indent {
+    margin-left: 20px;
+}
+
+.little-print {
+    font-size: 0.6rem;
+    margin: 5px auto;
+    padding: 0 8px;
+    text-indent: -8px;
+}

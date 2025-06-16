@@ -1,0 +1,96 @@
+body {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Roasted_coffee_beans.jpg/330px-Roasted_coffee_beans.jpg);
+    padding: 20px;
+}
+
+.address {
+    margin-bottom: 5px;
+    display: block;
+    text-align: center;
+}
+
+div {
+    background-color: burlywood;
+    margin: 35px;
+    padding: 20px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: impact;
+}
+
+.website {
+    text-align: center;
+    display: block;
+}
+
+hr {
+    height: 2px;
+    background-color: rgb(120, 13, 13);
+    border-color: rgb(120, 13, 13);
+}
+
+.established {
+    text-align: center;
+    display: block;
+    font-style: italic;
+}
+
+.price {
+    text-align: right;
+}
+
+.snack {
+    text-align: left;
+}
+
+.flavor {
+    text-align: left;
+}
+
+.item p {
+    display: inline-block;
+    width: 50%;
+    font-family: sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+a:hover {
+    color: black;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    color: black;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51px;
+    height: 44;
+    mix-blend-mode: darken;
+    margin-top: -25px;
+}
+
+h2 {
+    font-size: 30px;
+}

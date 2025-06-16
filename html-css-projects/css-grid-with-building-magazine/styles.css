@@ -1,0 +1,171 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(20, 30, 40);
+  color: rgba(255, 255, 255, 0.865);
+}
+
+main {
+  display: grid;
+  grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem)  minmax(2rem,1fr);
+  row-gap: 3rem;
+}
+
+.heading {
+  grid-column: 2/3;
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
+
+img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.header {
+  grid-column: 1/-1;
+}
+
+.header-title, .header-subtitle {
+  text-align: center;
+  color: orangered;
+}
+
+.header-title{
+  font-size: 8rem;
+  font-family: Anton, sans-serif;
+}
+
+.header-subtitle {
+ font-size: 3rem;
+ margin-bottom: 2rem;
+}
+
+.author {
+  font-size: 2rem;
+}
+
+.social-icons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  font-size: 1.8rem;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  align-items: center;
+}
+
+.text {
+  grid-column: 2/3;
+  column-width: 25rem;
+  font-size: 1.8rem;
+  letter-spacing: 0.6px;
+  text-align: justify;
+}
+
+.first-paragraph::first-letter{
+  font-size: 6rem;
+  float: left;
+  margin-right: 1rem;
+  color: orangered;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.author-name > a:hover {
+  background-color: green;
+}
+
+.publish-date {
+  color: rgba(211, 191, 191, 0.5);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.history-title, .history {
+  color: #00beef;
+  font-family: Raleway, sans-serif;
+}
+
+.history-subtitle {
+  margin-bottom: 2rem;
+}
+
+li {
+  padding-bottom: 2rem;
+}
+
+.text-with-images{
+  display: grid;
+  grid-template-columns: 1fr 2fr ;
+  column-gap: 3rem;
+}
+
+.image-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  row-gap: 3rem;
+  column-gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.image-1, .image-3 {
+  grid-column: 1/-1;
+}
+
+.quote {
+  color: #00beef;
+  font-family: Raleway;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.quote::before {
+  content: '" ';
+}
+
+.quote::after {
+  content: ' "'
+}
+
+hr {
+  margin: 2rem;
+}
+
+@media only screen and (max-width: 650px) {
+  .image-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .text-with-images {
+    grid-template-columns: 1fr;
+
+  }
+  
+}
+
+@media only screen and (max-width: 550px) {
+  .header-title {
+    font-size: 4rem;
+  }
+  .header-subtitle {
+    font-size: 2rem
+  }
+
+  .author, .social-icons, .text, .quote {
+    font-size: 1.5rem
+  }
+
+}
+

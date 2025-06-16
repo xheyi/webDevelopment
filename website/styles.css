@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100vw;
+}
+
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(195, 234, 236);
+}
+
+#header-img {
+  mix-blend-mode: multiply;
+}
+
+.nav-link {
+  list-style-type: none;
+}
+
+nav > a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  margin-left: 2rem;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: rgb(224, 165, 46);
+  z-index: 2;
+  width: 85%;
+  height: 120px;
+  margin: 2px auto;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+h3 {
+  margin-top: 0;
+  padding-top: 3px;
+  margin-bottom: 0; 
+}
+
+.company-name {
+  font-size: 2rem;
+  font-family: Pacifico, sans-sefif;
+  color: black;
+  margin: auto;
+}
+
+#email {
+  width: 250px;
+  height: 20px;
+}
+
+#submit, .select {
+  background: rgb(224, 165, 46);
+  border: none;
+  width: 100px;
+  height: 30px;
+  font-size: 1em;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.form {
+  text-align: center;
+}
+
+input {
+  margin: 5px auto;
+  display: block;  
+}
+
+a:hover {
+  background-color: gray;
+}
+
+.ingredient, .cooking, .taste {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.ingredient > div, .cooking > div, .taste > div  {
+  width: 500px;
+}
+
+nav {
+  margin: auto;
+}
+
+
+li {
+  float: left;
+  margin-left: 10px; 
+  flex-wrap: nowrap;
+}
+
+.ingredient > img, .cooking > img, .taste > img {
+  mix-blend-mode: multiply;
+}
+
+.video {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+#our-prices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.price-head {
+  background-color: rgb(115, 154, 156);
+  height: 30px;
+
+}
+
+.price {
+  text-align: center;
+  width: 250px;
+  border: 1px solid;
+}
+
+footer {
+  background-color: rgb(62, 85, 87);
+  border-radius: 5px;
+  padding: 0.5rem;
+  height: 80px;
+  width: 80%;
+  margin: auto;
+  color: rgb(201, 195, 195);
+}
+
+footer , footer > p {
+  text-align: center;
+}
+
+footer > a {
+  color: rgb(201, 195, 195);
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+
+
+@media (max-width: 750px){
+
+    nav > a {
+      display: block;
+      margin-left: 0;
+      margin-bottom: 4px;
+    }
+}
